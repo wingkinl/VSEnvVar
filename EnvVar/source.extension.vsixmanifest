@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="EnvVar.Company.09f494b6-e7a2-40e5-a8f3-5324071e929a" Version="1.0" Language="en-US" Publisher="Company" />
     <DisplayName>EnvVar</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Description>A tool to change user environment variables.</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
