@@ -118,7 +118,7 @@ namespace EnvVar
             }
 
 			EnvName.Text = "CodeMark";
-
+			EnvValue.SelectAll();
 		}
 
 		private void EnvName_Change(object sender, TextChangedEventArgs e)
