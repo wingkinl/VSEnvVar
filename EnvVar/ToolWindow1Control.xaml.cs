@@ -58,6 +58,7 @@ namespace EnvVar
 			//	SendNotifyMessage((IntPtr)HWND_BROADCAST, WM_SETTINGCHANGE,
 			//		(UIntPtr)0, "Environment");
 			//}
+			Environment.SetEnvironmentVariable(name, value);
 			Environment.SetEnvironmentVariable(name, value, EnvironmentVariableTarget.User);
 			//ProcessStartInfo info = new ProcessStartInfo(@"cmd.exe");
 			//info.Arguments = "/c ";
